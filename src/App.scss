@@ -1,0 +1,21 @@
+:root {
+    font-size: 16px;
+
+    nav > ul {
+        display: flex;
+    
+        & > li {
+            margin-right: 1rem;
+            list-style: none;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
