@@ -1,6 +1,4 @@
-interface Props {}
-
-const Task2: React.FC<Props> = function(props: Props) {
+const Task2: React.FC<unknown> = function() {
     return <div>Task2</div>
 }
 
