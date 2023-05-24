@@ -1,46 +1,13 @@
-# Getting Started with Create React App
+There are two tasks that have done in this repository:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- Develop a basic user interface in React, which should include a text field outlined in blue and a submit button. If the user inputs a valid integer into the text field and hits submit, an alert will display with the entered number. However, if the entered string is not an integer, the border of the text field will change to red and it will shake three times. In case the user persists in entering non-integer values (like a string with letters) and hits the submit button once more, the text field will repeat the shaking action.
 
-## Available Scripts
+2- Construct a mapping function that takes three parameters:
 
-In the project directory, you can run:
+    a)A collection of values as an array
+    b)An asynchronous function
+    c)A number indicating the maximum concurrency
 
-### `npm start`
+This function should traverse the array elements (given as the first argument), applying the provided asynchronous function (second argument) to each of them. The number of concurrent Promises executing at any given moment should not exceed the limit set by the third argument. The function should be versatile and operate with any type of values contained in the input array.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Additionally, develop a set of tests using a preferred testing framework that verifies the function's correct operation and adherence to the specified requirements.
