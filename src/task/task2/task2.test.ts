@@ -1,5 +1,5 @@
+import { task2 } from "./task2-code";
 import { expectErrorAsync } from "./common";
-import { task2 } from "./task2";
 
 test('thePool should be defined', async function() {
     
